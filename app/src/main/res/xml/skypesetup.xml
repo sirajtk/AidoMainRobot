@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Skype"
+        android:layout="@layout/preferencecustomskype"
+        >
+
+    <EditTextPreference
+    android:defaultValue=""
+    android:inputType="textUri"
+    android:key="aidoskypename"
+    android:maxLines="1"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="Aido Skype Name"
+        android:imeOptions="actionDone"
+
+        />
+
+    <EditTextPreference
+    android:defaultValue=""
+    android:inputType="textUri"
+    android:key="partnerskypename"
+    android:maxLines="1"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="Partner Skype Name"
+        android:imeOptions="actionDone"
+    />
+    <Preference
+    android:key="skypesetting"
+    android:title="Setup a Skype Account for Aido"
+    android:summary="Aido Skype">
+    </Preference>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pairing"
+        android:layout="@layout/preferencecustompairing">
+        <Preference
+
+            android:key="companionpairing"
+            android:title="Companion App Pair"
+            android:summary="Pair with the companion app to remotely interact with Aido">
+
+            <intent android:action="com.whitesun.companionpairing"/>
+        </Preference>
+
+
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

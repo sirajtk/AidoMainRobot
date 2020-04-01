@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AidoMain/AidoMain.iml" filepath="$PROJECT_DIR$/AidoMain/AidoMain.iml" group="AidoMainRobot/AidoMain" />
+      <module fileurl="file://$PROJECT_DIR$/AidoMainRobot.iml" filepath="$PROJECT_DIR$/AidoMainRobot.iml" group="AidoMainRobot" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AidoMainRobot/app" />
+      <module fileurl="file://$PROJECT_DIR$/bcgcontrol/bcgcontrol.iml" filepath="$PROJECT_DIR$/bcgcontrol/bcgcontrol.iml" group="AidoMainRobot/bcgcontrol" />
+      <module fileurl="file://$PROJECT_DIR$/facerecognitionpics/facerecognitionpics.iml" filepath="$PROJECT_DIR$/facerecognitionpics/facerecognitionpics.iml" group="AidoMainRobot/facerecognitionpics" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" group="AidoMainRobot/libraries" />
+      <module fileurl="file://$PROJECT_DIR$/lircsetting/lircsetting.iml" filepath="$PROJECT_DIR$/lircsetting/lircsetting.iml" group="AidoMainRobot/lircsetting" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rosandroid-core/rosandroid-core.iml" filepath="$PROJECT_DIR$/libraries/rosandroid-core/rosandroid-core.iml" group="AidoMainRobot/libraries/rosandroid-core" />
+      <module fileurl="file://$PROJECT_DIR$/rosandroid-example-app/rosandroid-example-app.iml" filepath="$PROJECT_DIR$/rosandroid-example-app/rosandroid-example-app.iml" group="AidoMainRobot/rosandroid-example-app" />
+      <module fileurl="file://$PROJECT_DIR$/speechtotext/speechtotext.iml" filepath="$PROJECT_DIR$/speechtotext/speechtotext.iml" group="AidoMainRobot/speechtotext" />
+      <module fileurl="file://$PROJECT_DIR$/texttospeech/texttospeech.iml" filepath="$PROJECT_DIR$/texttospeech/texttospeech.iml" group="AidoMainRobot/texttospeech" />
+    </modules>
+  </component>
+</project>

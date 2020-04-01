@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="tvsetting"
+        android:title="TV Setting"
+        android:summary="Add TV profiles">
+
+        <intent android:action="com.whitesun.tvsetting"/>
+
+
+    </Preference>
+
+    <Preference
+        android:key="phonesetting"
+        android:title="Phone Settings"
+        android:summary="Add phone profiles">
+
+        <intent android:action="com.whitesun.phonesetting"/>
+    </Preference>
+
+    <Preference
+        android:key="tabletsetting"
+        android:title="Tablet Settings"
+        android:summary="Add tablet profiles">
+
+        <intent android:action="com.whitesun.tabletsetting"/>
+
+    </Preference>
+
+
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Pairing">
+    <Preference
+    android:key="companionpairing"
+    android:title="Companion App Pair"
+    android:summary="Pair with the companion app to remotely interact with Aido">
+
+    <intent android:action="com.whitesun.companionpairing"/>
+    </Preference>
+
+
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

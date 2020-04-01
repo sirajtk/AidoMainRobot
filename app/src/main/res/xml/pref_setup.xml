@@ -1,0 +1,109 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Wifi"
+        android:layout="@layout/preferencecustomwifi">
+
+    <Preference
+        android:key="wifisetting"
+        android:title="Wifi Scan and Setup Menu"
+        android:summary="Wifi Setting"
+        >
+
+        <intent android:action="com.whitesun.wifisetting"/>
+    </Preference>
+</PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="Skype">-->
+
+    <!--<EditTextPreference-->
+        <!--android:defaultValue=""-->
+        <!--android:inputType="textUri"-->
+        <!--android:key="aidoskypename"-->
+        <!--android:maxLines="1"-->
+        <!--android:selectAllOnFocus="true"-->
+        <!--android:singleLine="true"-->
+        <!--android:title="Aido Skype Name"-->
+        <!--/>-->
+
+    <!--<EditTextPreference-->
+        <!--android:defaultValue=""-->
+        <!--android:inputType="textUri"-->
+        <!--android:key="partnerskypename"-->
+        <!--android:maxLines="1"-->
+        <!--android:selectAllOnFocus="true"-->
+        <!--android:singleLine="true"-->
+        <!--android:title="Partner Skype Name"-->
+        <!--/>-->
+    <!--<Preference-->
+        <!--android:key="skypesetting"-->
+        <!--android:title="Setup a Skype Account for Aido"-->
+        <!--android:summary="Aido Skype">-->
+    <!--</Preference>-->
+
+    <!--</PreferenceCategory>-->
+
+
+    <!--<PreferenceCategory android:title="Gmail">-->
+
+        <!--<EditTextPreference-->
+            <!--android:defaultValue=""-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:key="aidogmail"-->
+            <!--android:maxLines="1"-->
+            <!--android:selectAllOnFocus="true"-->
+            <!--android:singleLine="true"-->
+            <!--android:title="Aido Gmail Id"-->
+            <!--/>-->
+        <!--<Preference-->
+            <!--android:key="gmailsetting"-->
+            <!--android:title="Setup a Gmail Account for Aido"-->
+            <!--android:summary="Aido Gmail">-->
+        <!--</Preference>-->
+
+
+
+    <!--</PreferenceCategory>-->
+
+    <!--<PreferenceCategory android:title="Pairing">-->
+        <!--<Preference-->
+            <!--android:key="companionpairing"-->
+            <!--android:title="Companion App Pair"-->
+            <!--android:summary="Pair with the companion app to remotely interact with Aido">-->
+
+            <!--<intent android:action="com.whitesun.companionpairing"/>-->
+        <!--</Preference>-->
+
+
+
+
+        <!--</PreferenceCategory>-->
+    <!--<-->
+
+    <!--<PreferenceCategory android:title="Face Recognition">-->
+        <!--<Preference-->
+            <!--android:key="facerecogsettting"-->
+            <!--android:title="Face Recognition Setup"-->
+            <!--android:summary="Scan Face and Setup a Profile">-->
+
+            <!--<intent android:action="com.whitesun.facerecogsettting"/>-->
+        <!--</Preference>-->
+
+
+
+        <!--</PreferenceCategory>-->
+    <!--<Preference-->
+        <!--android:key="textview"-->
+        <!--android:title="textview"-->
+        <!--android:summary="Add Home Appliances">-->
+
+        <!--<intent android:action="com.whitesun.homeappliancessetting"/>-->
+
+
+    <!--</Preference>-->
+
+
+</PreferenceScreen>
+
+
+

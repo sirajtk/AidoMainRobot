@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+    android:background="@color/skyblue">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:background="@drawable/settingslayer">
+
+        <Button android:text="Previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:id="@+id/previousbutton"
+            android:layout_marginLeft="450dp"
+            android:background="@drawable/connecttowifibutton"
+            android:textSize="20sp"
+
+
+
+            android:textColor="@color/darkskyblue"
+
+
+
+            android:onClick="previousButtonClick"
+            />
+        <Button android:text="Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:id="@+id/nextbutton"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+
+            android:background="@drawable/connecttowifibutton"
+            android:textSize="20sp"
+
+            android:layout_marginTop="0dp"
+
+
+            android:visibility="visible"
+
+
+            android:textColor="@color/darkskyblue"
+            android:onClick="nextButtonClick"
+            />
+
+
+        <ListView android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

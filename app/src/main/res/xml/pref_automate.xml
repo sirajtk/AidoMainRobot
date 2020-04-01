@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ListPreference
+        android:defaultValue=""
+        
+        android:entries="@array/pref_personality_types"
+        android:entryValues="@array/pref_personality_file_names"
+        android:key="personalitytype"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Aido Personality" />
+
+    <Preference
+        android:key="behaviorsetting"
+        android:title="Aido Behaviors"
+        android:summary="Interface to Program Aido Behaviors">
+        <intent android:action="com.whitesun.behaviorsetting"/>
+
+
+    </Preference>
+
+    <Preference
+        android:key="patrolpathssetting"
+        android:title="Patrol Path Setting"
+        android:summary="Add patrol paths">
+
+
+    </Preference>
+
+
+    <Preference
+        android:key="taskautomatesetting"
+        android:title="Task Automation Setting"
+        android:summary="Add Task Automate Flows">
+
+    </Preference>
+
+
+</PreferenceScreen>

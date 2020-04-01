@@ -1,0 +1,57 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <!-- These settings headers are only used on tablets. -->
+
+
+
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$SetupPreferenceFragment"
+        android:icon="@drawable/setup"
+        android:title="Setup"
+
+
+
+        android:id="@+id/setupp"
+        />
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$LightingPreferenceFragment"
+        android:icon="@drawable/lighting"
+        android:title="Lighting"
+        />
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$DevicesPreferenceFragment"
+        android:icon="@drawable/devices"
+        android:title="Devices" />
+
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$AppliancesPreferenceFragment"
+        android:icon="@drawable/appliances"
+        android:title="Appliances"
+        />
+
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/social"
+        android:title="Social" />
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$AutomatePreferenceFragment"
+        android:icon="@drawable/customize"
+        android:title="Customize" />
+
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/notification"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/datasync"
+        android:title="@string/pref_header_data_sync"
+        />
+    <header
+        android:fragment="com.whitesun.aidoface.settings.SettingsActivity$MemoryGame"
+        android:icon="@drawable/notification"
+        android:title="Memory Game" />
+
+</preference-headers>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--tools:context="com.whitesun.aidoface.settings.appliances.UniversalRemoteSetting">-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+
+
+        <!--&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--&gt;-->
+
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:id="@+id/et_tv_nickname"-->
+                <!--android:hint="New Universal Remote Nick Name"-->
+                <!--android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "-->
+                <!--/>-->
+
+
+
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:hint="Enter Model"-->
+                <!--android:id="@+id/et_tv_modelname"-->
+                <!--android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "-->
+                <!--/>-->
+
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:hint="Enter Model No."-->
+                <!--android:id="@+id/et_tv_modelno"-->
+                <!--android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "-->
+                <!--/>-->
+
+
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="ADD"-->
+                <!--android:background="@drawable/button_green"-->
+                <!--android:id="@+id/bt_rawbehave_submit"-->
+
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1">-->
+
+
+            <!--<ListView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:id="@+id/lv_tv_commands"-->
+                <!--&gt;-->
+
+
+
+            <!--</ListView>-->
+
+
+
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+<!--</RelativeLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/skyblue"
+    tools:context="com.whitesun.aidoface.behavior.BehaviorRawFileCreate">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/settingslayer"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginTop="30dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/tvnameiv1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/universalremotenickname"
+                        />
+                    <TextView
+                        android:id="@+id/tvnametv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="20dp"
+                        android:text="New Tv Nick Name"
+                        />
+                </LinearLayout>
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:paddingRight="40dp"
+                    android:paddingLeft="40dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:hint="Enter here"
+                    android:textColorHint="@color/white"
+                    android:layout_marginTop="10dp"
+
+                    android:background="@null"
+                    android:id="@+id/et_tv_nickname"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/viewcolor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+
+                android:id="@+id/ll2">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:id="@+id/tvnameiv2"
+                        android:layout_height="40dp"
+                        android:src="@drawable/universalmodel"
+                        />
+                    <TextView
+                        android:id="@+id/tvnametv2"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:text="Enter Model"
+                        />
+                </LinearLayout>
+
+
+                <EditText
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:hint="Enter here"
+                    android:textColorHint="@color/white"
+                    android:background="@null"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/et_tv_modelname"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/viewcolor"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+
+
+                android:id="@+id/ll3">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:id="@+id/tvnameiv3"
+                        android:layout_height="40dp"
+                        android:src="@drawable/universalmodelno"
+                        />
+                    <TextView
+                        android:id="@+id/tvnametv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="20dp"
+
+                        android:text="Enter Model No."
+                        />
+                </LinearLayout>
+
+
+                <EditText
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:paddingRight="40dp"
+                    android:paddingLeft="40dp"
+                    android:hint="Enter here"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:background="@null"
+                    android:id="@+id/et_tv_modelno"
+
+
+                    android:layout_marginTop="10dp"
+
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/viewcolor"/>
+            </LinearLayout>
+
+
+
+
+
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="@color/darkskyblue"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:text="ADD"
+                android:background="@drawable/connecttowifibutton"
+                android:id="@+id/bt_rawbehave_submit"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+
+            >
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lv_tv_commands"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                >
+
+
+
+            </ListView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+

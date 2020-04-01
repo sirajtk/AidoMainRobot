@@ -1,0 +1,1 @@
+include ':app', ':rosandroid-example-app', ':libraries:rosandroid-core', ':texttospeech', ':AidoMain', ':speechtotext', ':facerecognitionpics', ':lircsetting', ':bcgcontrol'

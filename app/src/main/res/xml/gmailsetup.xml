@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Gmail"
+        android:layout="@layout/preferencecustomlayout"
+
+
+
+        >
+
+    <EditTextPreference
+    android:defaultValue=""
+        android:paddingLeft="50dp"
+
+
+
+
+    android:inputType="textEmailAddress"
+    android:key="aidogmail"
+    android:maxLines="1"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+
+
+        android:widgetLayout="@layout/prefcutomlayout"
+
+    android:title="Aido Gmail Id"
+    />
+    <Preference
+
+
+
+
+
+    android:key="gmailsetting"
+    android:title="Setup a Gmail Account for Aido"
+    android:summary="Aido Gmail">
+    </Preference>
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

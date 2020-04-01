@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whitesun.aidoface.answer2">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="518dp"
+            android:layout_height="234dp"
+            android:background="#FFFFFF"
+
+
+            />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:layout_weight="0"
+            android:background="#00000000"
+            android:clickable="true"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="1)"
+            android:textColor="#000000"
+            android:textSize="35dp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="518dp"
+            android:layout_height="234dp"
+            android:layout_marginLeft="505dp"
+
+            android:text=""
+            android:background="#FFFFFF"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:text="2)"
+            android:layout_marginLeft="520dp"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:background="#00000000"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:clickable="true"
+            android:layout_weight="0"
+            android:layout_marginTop="80dp"
+
+            />
+
+
+        <ImageButton
+            android:id="@+id/image3"
+            android:layout_width="518dp"
+            android:layout_height="234dp"
+            android:layout_marginTop="234dp"
+            android:text="Message"
+            android:background="#FFFFFF"
+
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:text="3)"
+            android:layout_marginLeft="25dp"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:background="#00000000"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:clickable="true"
+            android:layout_weight="0"
+            android:layout_marginTop="300dp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/image4"
+            android:layout_width="518dp"
+            android:layout_height="234dp"
+            android:layout_marginLeft="505dp"
+            android:layout_marginTop="235dp"
+            android:text=""
+            android:background="#FFFFFF"
+
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:text="4)"
+            android:layout_marginLeft="520dp"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:background="#00000000"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:clickable="true"
+            android:layout_weight="0"
+            android:layout_marginTop="300dp"
+
+            />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/btn_7"-->
+        <!--            android:layout_width="220dp"-->
+        <!--            android:layout_height="220dp"-->
+        <!--            android:background=""-->
+        <!--            android:text="Score"-->
+        <!--            android:textSize="15dp"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            />-->
+
+
+
+
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

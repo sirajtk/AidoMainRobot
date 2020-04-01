@@ -1,0 +1,1 @@
+{"token":"15d9ccef146fce02a69a8c2506a57dbaab0e8286fcf53e6204ddec914d858774","licensor":"Affectiva Inc.","expires":"2016-10-11","developerId":"aidoprototype@gmail.com","software":"Affdex SDK"}

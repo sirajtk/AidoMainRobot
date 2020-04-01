@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="User Infomation"
+        android:layout="@layout/preferencecustomuserinfo">
+
+    <EditTextPreference
+    android:defaultValue=""
+    android:inputType="textUri"
+    android:key="userFirstName"
+    android:maxLines="1"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="First Name"
+    />
+
+    <EditTextPreference
+    android:defaultValue=""
+    android:inputType="textUri"
+    android:key="userLastname"
+    android:maxLines="1"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="Partner Skype Name"
+    />
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="textUri"
+        android:key="userDOB"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="DOB"
+        />
+    <!--<EditTextPreference-->
+        <!--android:defaultValue=""-->
+        <!--android:inputType="textUri"-->
+        <!--android:key="userSkypename"-->
+        <!--android:maxLines="1"-->
+        <!--android:selectAllOnFocus="true"-->
+        <!--android:singleLine="true"-->
+        <!--android:title="Partner Skype Name"-->
+        <!--/>-->
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="textUri"
+        android:key="userPhoneDetail"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Phone Detail"
+        />
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="textUri"
+        android:key="userEmailDetail"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Email Detail"
+        />
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="textUri"
+        android:key="userSkypeDetail"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Skype Detail"
+        />
+
+
+
+
+
+    <!--<Preference-->
+    <!--android:key="skypesetting"-->
+    <!--android:title="Setup a Skype Account for Aido"-->
+    <!--android:summary="Aido Skype">-->
+    <!--</Preference>-->
+
+    </PreferenceCategory>
+</PreferenceScreen>

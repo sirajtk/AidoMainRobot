@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.whitesuntech.aidohomerobot">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:clearTaskOnLaunch="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:launchMode="singleTask"
+        android:screenOrientation="landscape"
+        android:stateNotNeeded="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name="com.whitesun.aidoface.HealthPlot">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.HealthPlot" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.result">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.result" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.answer5">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.answer5" />
+
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.answer4">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.answer4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.answer3">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.answer3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.answer2">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.answer2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.answer1">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.answer1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.Memory_game5">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.Memory_game5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.Memory_game4">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.Memory_game4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.Memory_game3">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.Memory_game3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.Memory_game2">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.Memory_game2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.Memory_game1">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.Memory_game1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.ShowPressure">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.ShowPressure" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.showReminderNext">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.showReminderNext" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.whitesun.aidoface.showReminder">
+            <intent-filter>
+                <action android:name="com.whitesun.aidoface.showReminder" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.whitesun.aidoface.FaceRecoService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".AidoMain"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.whitesun.httpdownload" />
+            </intent-filter>
+        </activity>
+        <activity android:name="aido.camera.ClickPhoto" />
+        <activity android:name="aido.camera.ShowCamera" />
+        <activity
+            android:name="aido.launcher.FakeHome"
+            android:enabled="false"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <!--
+          <receiver android:name="aido.kiosk.BootReceiver">
+              <intent-filter>
+                  <action android:name="android.intent.action.BOOT_COMPLETED" />
+              </intent-filter>
+          </receiver>
+        -->
+        <!--
+        <receiver android:enabled="true" android:name="com.whitesun.aidoface.BootUpReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <service
+            android:name="com.whitesun.aidoface.BeckgroundServicee"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.whitesun.aidoface.ReceiverToStartPerticularActivity"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="perticularActivity" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.whitesun.aidoface.FaceRecognitionReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ajeet.facerecognition1" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.whitesun.aidoface.EmotionFaceBroadCastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ajeet.emotionfaces" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.whitesun.aidoface.SensorReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ajeet.sensor" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.whitesun.aidoface.SceneReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ajeet.scene" />
+            </intent-filter>
+        </receiver> <!-- <receiver android:name="com.whitesun.aidoface.AidoJioPardyReciver" -->
+        <!-- android:exported="true" -->
+        <!-- android:enabled="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.rathore.aidojiopardy" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <receiver
+            android:name="com.whitesun.aidoface.RosBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.whitesun.httpdownload" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".PackageReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!--
+        <service
+            android:name="aido.kiosk.KioskService"
+            android:exported="false" />
+
+        <receiver android:name="aido.polling.HttpDownloadPolling"></receiver>
+        -->
+        <activity
+            android:name="com.whitesun.aidoface.AidoFace"
+            android:label="@string/title_activity_aido_face"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- The following two intent-filters are the key to set homescreen -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aido.Scandit.ScanditScanning"
+            android:label="@string/title_activity_aido_face"
+            android:parentActivityName=".AidoMain"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="aido.shoppinglist.MainActivityForShoppingList"
+            android:label="@string/title_activity_aido_face"
+            android:parentActivityName="com.whitesun.aidoface.AidoFace"
+            android:screenOrientation="landscape" />
+
+        <receiver
+            android:name="com.whitesun.aidoface.SpeechBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.whitesuntech.speechtotext" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.whitesun.aidoface.TTSBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" /> <!-- notification service -->
+        <service
+            android:name="aido.popupnotice.NotificationService"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+                       
+            <intent-filter>
+                               
+                <action android:name="android.service.notification.NotificationListenerService" />
+                           
+            </intent-filter>
+               
+        </service>
+
+        <receiver
+            android:name="com.whitesun.aidoface.AutomateBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.whitesun.aidoface.behavior.BehaviorRawFileCreate"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="com.whitesun.behaviorsetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.wifi.WifiCredentials"
+            android:label="@string/title_activity_wifi_credentials"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.whitesun.wifisetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeCustom" /> <!--  -->
+        <activity
+            android:name="com.whitesun.aidoface.settings.appliances.TvSetting"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="com.whitesun.tvsetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.appliances.PhoneSeting"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="com.whitesun.phonesetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.appliances.TabletSetting"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="com.whitesun.tabletsetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.appliances.HomeApplianceSetting"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="com.whitesun.homeappliancessetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.appliances.UniversalRemoteSetting"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="com.whitesun.universalremotsetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.social.SocialSettings"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="com.whitesun.socialtelecastsetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.face.FaceRecognitionSetting"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="com.whitesun.facerecogsettting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.companion.CompanionAppBitMapPair"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.whitesun.companionpairing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name="com.whitesun.aidoface.settings.social.MakeSkypeCallToCompanion"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.whitesun.makeskypecalltocompanion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name=".WifiSetUp"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GmailSetup"
+            android:theme="@style/MyPreferenceTheme" />
+        <activity
+            android:name=".SkypeSetUp"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyPreferenceTheme" />
+        <activity android:name=".Pairing" />
+        <activity
+            android:name=".UserInfo"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyPreferenceTheme" />
+        <activity
+            android:name=".FaceRecognition"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyPreferenceTheme" />
+
+        <service
+            android:name="com.whitesun.aidoface.MobilityService"
+            android:enabled="true"
+            android:exported="true" /> <!-- <service -->
+        <!-- android:name="com.whitesuntech.speechtotext.MyService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"></service> -->
+        <service
+            android:name="com.whitesun.aidoface.ProjectorOn"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.whitesun.aidoface.ProjectorOff"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.whitesun.aidoface.FirstToRun" />
+        <activity android:name="com.whitesun.aidoface.Scene" />
+        <activity
+            android:name="com.whitesun.aidoface.captureImg"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

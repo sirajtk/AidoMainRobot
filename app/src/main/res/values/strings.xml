@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Aido Home Robot</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit_dialog_text">Restricted Access. Enter Password</string>
+    <string name="exit_dialog_title">Authenticate!</string>
+    <string name="exit_dialog_password_error">Invalid Password. Try Again</string>
+    <string name="exit_dialog_cancel">Cancelling...</string>
+    <string name="title_activity_fake_home">FakeHome</string>
+    <string name="title_activity_aido_face"></string>
+
+
+    <!--MainActivityAffectiva strings-->
+    <string name="not_found">Sorry, AffdexMe requires the use of a front-facing camera, which was not found on your device.</string>
+    <string name="affectiva_logo_content_description">Affectiva Logo</string>
+    <string name="fps">FPS:</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="settings_content_description">Settings</string>
+
+    <string name="insufficient_permissions">Insufficient Permissions</string>
+    <string name="permissions_camera_needed_explanation">This app requires the permission to access your camera to be able to gather facial images for processing. No video is saved or used other than for immediate emotion processing.</string>
+    <string name="permissions_storage_needed_explanation">This app requires the permission to access your external storage to save screenshots.</string>
+    <string name="error">Error</string>
+    <string name="understood">Understood</string>
+    <string name="retry">Retry</string>
+
+    <!--MetricSelectionFragment strings-->
+    <string name="clear_all">Clear All</string>
+    <string name="metric_chooser_default_message">0 metrics chosen.</string>
+    <string name="choose_six_message">Choose 6 emotions and expressions below to display on the main screen.</string>
+
+    <!--SettingsActivity strings-->
+    <string name="select_metrics_title">Select Metrics</string>
+    <string name="select_metrics_message">Select emotions and expressions to display.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_message">Change application settings.</string>
+
+    <!--SettingsFragment strings-->
+    <string name="set_fps_title">Set Target FPS</string>
+    <string name="set_fps_message">Set the desired processed frames per second.</string>
+    <string name="fps_edittext_title">Processed Frames Per Second</string>
+    <string name="show_tracking_title">Show Tracking Dots</string>
+    <string name="show_tracking_message">Display tracking dots and bounding box.</string>
+    <string name="show_appearance_title">Show Appearance Indicators</string>
+    <string name="show_appearance_message">Display appearance markers adjacent to the bounding box.</string>
+    <string name="show_fps_title">Show FPS</string>
+    <string name="show_fps_message">Display the actual processed frames per second.</string>
+    <string name="show_emoji_title">Show Emoji Indicators</string>
+    <string name="show_emoji_message">Display emoji markers adjacent to the bounding box.</string>
+    <string name="show_multiface_message">Track multiple people. A beta feature that is CPU intensive, and works only on newer devices.</string>
+    <string name="show_multiface_title">Enable Multi-face mode</string>
+    <string name="negative">NEGATIVE</string>
+    <string name="positive">POSITIVE</string>
+
+
+    <!-- shopping list -->
+
+    <string name="item_hint">New Item</string>
+    <string name="empty_text">No items yet</string>
+    <string name="add_item">Add Item</string>
+    <string name="shopping_cart_empty">Empty shopping cart</string>
+    <string name="lorem_ipsum">Lorem ipsum</string>
+    <string name="new_item">New Item</string>
+    <string name="description_hint">Description</string>
+    <string name="qty_hint">Quantity</string>
+    <string name="delete">Delete</string>
+    <string name="sort_alpha">Sort (A-Z)</string>
+    <string name="developer_string">development</string>
+    <string name="edit_item">Edit Item</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_wifi_credentials">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Wifi ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Setup</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string-array name="pref_personality_types">
+        <item>None</item>
+        <item>Personality 1</item>
+        <item>Personality 2</item>
+        <item>Personality 3</item>
+        <item>Personality 4</item>
+        <item>Personality 5</item>
+        <item>Personality 6</item>
+        <item>Personality 7</item>
+        <item>Personality 8</item>
+        <item>Personality 9</item>
+        <item>Personality 10</item>
+        <item>Personality 11</item>
+    </string-array>
+    <string-array name="pref_personality_file_names">
+        <item></item>
+        <item>personality1.csv</item>
+        <item>personality2.csv</item>
+        <item>personality3.csv</item>
+        <item>personality4.csv</item>
+        <item>personality5.csv</item>
+        <item>personality6.csv</item>
+        <item>personality7.csv</item>
+        <item>personality8.csv</item>
+        <item>personality9.csv</item>
+        <item>personality10.csv</item>
+        <item>personality11.csv</item>
+    </string-array>
+    <string name="textView3"><u>Game Over</u></string>
+
+
+</resources>
